@@ -8,6 +8,7 @@ CLOVER/*
 
 !CLOVER/kexts/
 CLOVER/kexts/*
+!CLOVER/kexts/Lib/
 !CLOVER/kexts/Other/
 !CLOVER/kexts/10.11/
 
