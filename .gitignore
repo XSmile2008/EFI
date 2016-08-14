@@ -1,0 +1,16 @@
+Clover_Install_Log.txt
+APPLE/
+BOOT/
+CLOVER/*
+
+!CLOVER/ACPI/
+!CLOVER/doc/
+
+!CLOVER/kexts/
+CLOVER/kexts/*
+!CLOVER/kexts/Other/
+!CLOVER/kexts/10.11/
+
+!CLOVER/themes/
+
+!CLOVER/config.plist
