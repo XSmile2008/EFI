@@ -65,7 +65,7 @@
 				<key>FixSBUS_0080</key>
 				<true/>
 				<key>FixShutdown_0004</key>
-				<true/>
+				<false/>
 				<key>FixUSB_1000</key>
 				<true/>
 				<key>NewWay_80000000</key>
@@ -109,25 +109,6 @@
 			<key>Inject</key>
 			<string>1</string>
 		</dict>
-		<key>FakeID</key>
-		<dict>
-			<key>ATI</key>
-			<string>0x0</string>
-			<key>IMEI</key>
-			<string>0x0</string>
-			<key>IntelGFX</key>
-			<string>0x0</string>
-			<key>LAN</key>
-			<string>0x0</string>
-			<key>NVidia</key>
-			<string>0x0</string>
-			<key>SATA</key>
-			<string>0x0</string>
-			<key>WIFI</key>
-			<string>0x0</string>
-			<key>XHCI</key>
-			<string>0x0</string>
-		</dict>
 		<key>USB</key>
 		<dict>
 			<key>FixOwnership</key>
@@ -138,10 +119,6 @@
 		<key>UseIntelHDMI</key>
 		<false/>
 	</dict>
-	<key>DisableDrivers</key>
-	<array>
-		<string>Nothing</string>
-	</array>
 	<key>GUI</key>
 	<dict>
 		<key>Hide</key>
@@ -149,14 +126,10 @@
 			<string>Windows</string>
 			<string>\EFI\BOOT\BOOTX64.EFI</string>
 		</array>
-		<key>Language</key>
-		<string>en:0</string>
 		<key>Mouse</key>
 		<dict>
 			<key>Enabled</key>
-			<true/>
-			<key>Speed</key>
-			<integer>8</integer>
+			<false/>
 		</dict>
 		<key>Scan</key>
 		<dict>
@@ -170,7 +143,7 @@
 		<key>ScreenResolution</key>
 		<string>1920x1080</string>
 		<key>Theme</key>
-		<string>embedded</string>
+		<string>Mavs Style</string>
 	</dict>
 	<key>Graphics</key>
 	<dict>
@@ -192,12 +165,6 @@
 		<true/>
 		<key>AsusAICPUPM</key>
 		<true/>
-		<key>KernelCpu</key>
-		<false/>
-		<key>KernelHaswellE</key>
-		<false/>
-		<key>KernelLapic</key>
-		<false/>
 		<key>KernelPm</key>
 		<true/>
 		<key>KextsToPatch</key>
@@ -214,13 +181,13 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>t1-10.9-10.12-AppleHDA/Realtek ALC892</string>
+				<string>t1-10.9-10.12-AppleHDA/Realtek ALC887</string>
 				<key>Find</key>
 				<data>ixnUEQ==</data>
 				<key>Name</key>
 				<string>AppleHDA</string>
 				<key>Replace</key>
-				<data>kgjsEA==</data>
+				<data>hwjsEA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -275,12 +242,12 @@
 			<dict>
 				<key>Comment</key>
 				<string>Enabe TRIM for non-Apple SSDs</string>
-    		<key>Name</key>
-    		<string>IOAHCIBlockStorage</string>
-    		<key>Find</key>
-    		<data>QVBQTEUgU1NEAA==</data>
-    		<key>Replace</key>
-    		<data>AAAAAAAAAAAAAA==</data>
+				<key>Find</key>
+				<data>QVBQTEUgU1NEAA==</data>
+				<key>Name</key>
+				<string>IOAHCIBlockStorage</string>
+				<key>Replace</key>
+				<data>AAAAAAAAAAAAAA==</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
