@@ -216,7 +216,7 @@
 			</dict>
 			<dict>
 				<key>Comment</key>
-				<string>t1-10.9-10.12-AppleHDA/Realtek ALC887</string>
+				<string>t1-10.9-10.12-AppleHDA/Realtek ALC892</string>
 				<key>Find</key>
 				<data>
 				ixnUEQ==
@@ -225,7 +225,7 @@
 				<string>AppleHDA</string>
 				<key>Replace</key>
 				<data>
-				hwjsEA==
+				kgjsEA==
 				</data>
 			</dict>
 			<dict>
