@@ -118,6 +118,17 @@
 		</dict>
 		<key>UseIntelHDMI</key>
 		<false/>
+		<key>AddProperties</key>
+    <array>
+        <dict>
+            <key>Device</key>
+            <string>IntelGFX</string>
+            <key>Key</key>
+            <string>AAPL,GfxYTile</string>
+            <key>Value</key>
+            <data>AQAAAA==</data>
+        </dict>
+    </array>
 	</dict>
 	<key>GUI</key>
 	<dict>
