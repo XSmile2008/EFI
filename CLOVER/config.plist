@@ -73,6 +73,21 @@
 			</dict>
 			<key>Name</key>
 			<string>DSDT.aml</string>
+			<key>Patches</key>
+			<array>
+				<dict>
+					<key>Comment</key>
+					<string>10.8+-RenameGFX02IGPU</string>
+					<key>Find</key>
+					<data>
+					R0ZYMA==
+					</data>
+					<key>Replace</key>
+					<data>
+					SUdQVQ==
+					</data>
+				</dict>
+			</array>
 			<key>ReuseFFFF</key>
 			<false/>
 		</dict>
@@ -104,6 +119,19 @@
 	</dict>
 	<key>Devices</key>
 	<dict>
+		<key>AddProperties</key>
+		<array>
+			<dict>
+				<key>Device</key>
+				<string>IntelGFX</string>
+				<key>Key</key>
+				<string>AAPL,GfxYTile</string>
+				<key>Value</key>
+				<data>
+				AQAAAA==
+				</data>
+			</dict>
+		</array>
 		<key>Audio</key>
 		<dict>
 			<key>Inject</key>
@@ -171,53 +199,115 @@
 		<array>
 			<dict>
 				<key>Comment</key>
+				<string>t1-10.12-AppleHDA/Realtek ALC...</string>
+				<key>Find</key>
+				<data>
+				ihnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				AAAAAA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>t1-10.9-10.12-AppleHDA/Realtek ALC887</string>
+				<key>Find</key>
+				<data>
+				ixnUEQ==
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				hwjsEA==
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>t1-AppleHDA/Resources/xml&gt;zml</string>
+				<key>Find</key>
+				<data>
+				eG1sLnps
+				</data>
+				<key>Name</key>
+				<string>AppleHDA</string>
+				<key>Replace</key>
+				<data>
+				em1sLnps
+				</data>
+			</dict>
+			<dict>
+				<key>Comment</key>
 				<string>Skylake APIC fix, discovered by Pike R. Alpha</string>
 				<key>Find</key>
-				<data>wegQD7bw</data>
+				<data>
+				wegQD7bw
+				</data>
 				<key>Name</key>
 				<string>AppleAPIC</string>
 				<key>Replace</key>
-				<data>vhcAAACQ</data>
+				<data>
+				vhcAAACQ
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>10.11-SKL-1912000-4_displays</string>
 				<key>Find</key>
-				<data>AQMDAw==</data>
+				<data>
+				AQMDAw==
+				</data>
 				<key>Name</key>
 				<string>AppleIntelSKLGraphicsFramebuffer</string>
 				<key>Replace</key>
-				<data>AQMEAw==</data>
+				<data>
+				AQMEAw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>External icons patch</string>
 				<key>Find</key>
-				<data>RXh0ZXJuYWw=</data>
+				<data>
+				RXh0ZXJuYWw=
+				</data>
 				<key>Name</key>
 				<string>AppleAHCIPort</string>
 				<key>Replace</key>
-				<data>SW50ZXJuYWw=</data>
+				<data>
+				SW50ZXJuYWw=
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Raise 15 port limit to 30 in AppleUSBXHCIPCI</string>
 				<key>Find</key>
-				<data>g72M/v//EA==</data>
+				<data>
+				g72M/v//EA==
+				</data>
 				<key>Name</key>
 				<string>AppleUSBXHCIPCI</string>
 				<key>Replace</key>
-				<data>g72M/v//Hw==</data>
+				<data>
+				g72M/v//Hw==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
 				<string>Enabe TRIM for non-Apple SSDs</string>
 				<key>Find</key>
-				<data>QVBQTEUgU1NEAA==</data>
+				<data>
+				QVBQTEUgU1NEAA==
+				</data>
 				<key>Name</key>
 				<string>IOAHCIBlockStorage</string>
 				<key>Replace</key>
-				<data>AAAAAAAAAAAAAA==</data>
+				<data>
+				AAAAAAAAAAAAAA==
+				</data>
 			</dict>
 			<dict>
 				<key>Comment</key>
@@ -225,11 +315,15 @@
 				<key>Disabled</key>
 				<false/>
 				<key>Find</key>
-				<data>AQAAdRc=</data>
+				<data>
+				AQAAdRc=
+				</data>
 				<key>Name</key>
 				<string>IOGraphicsFamily</string>
 				<key>Replace</key>
-				<data>AQAA6xc=</data>
+				<data>
+				AQAA6xc=
+				</data>
 			</dict>
 		</array>
 	</dict>
