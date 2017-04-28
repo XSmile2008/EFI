@@ -4,7 +4,6 @@ BOOT/
 CLOVER/*
 
 !CLOVER/ACPI/
-!CLOVER/doc/
 
 !CLOVER/kexts/
 CLOVER/kexts/*
@@ -12,7 +11,9 @@ CLOVER/kexts/*
 !CLOVER/kexts/Other/
 !CLOVER/kexts/10.11/
 
-!CLOVER/themes/
+CLOVER/themes/*
+!CLOVER/themes/Mavs Style
+!CLOVER/themes/tonymacx86
 
 !CLOVER/config.plist
 
