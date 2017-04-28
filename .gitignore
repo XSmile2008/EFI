@@ -16,6 +16,7 @@ CLOVER/themes/*
 !CLOVER/themes/tonymacx86
 
 !CLOVER/config.plist
+!CLOVER/config_backup.plist
 
 # =========================
 # Operating System Files
